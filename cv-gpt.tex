@@ -1,0 +1,278 @@
+\documentclass[8pt]{developercv}
+\usepackage{ragged2e}
+
+% \usepackage[english]{babel}
+% \usepackage[T1]{fontenc}
+% \usepackage{graphicx,wrapfig}
+% \usepackage{url}
+% \usepackage[colorlinks=true, pdfstartview=FitV,
+% linkcolor=blue, citecolor=blue, urlcolor=blue]{hyperref}
+%
+% \usepackage{etoolbox}
+% \usepackage{xunicode}
+% \usepackage{xltxtra}
+% \usepackage{setspace}
+%
+% \usepackage{mathpazo}
+%
+% \defaultfontfeatures{Scale=MatchLowercase,Mapping=tex-text}
+% \frenchspacing
+%
+% \setromanfont[Ligatures={Common}, Numbers={OldStyle}]{Minion Pro}
+%
+% \topmargin=0mm
+% \textheight=235mm
+\begin{document}
+
+\begin{minipage}[t]{0.45\textwidth} % 45% of the page width for name
+	\vspace{-\baselineskip} % Required for vertically aligning minipages
+
+	% If your name is very short, use just one of the lines below
+	% If your name is very long, reduce the font size or make the minipage wider and reduce the others proportionately
+	\colorbox{black}{{\HUGE\textcolor{white}{\textbf{\MakeUppercase{Joe}}}}} % First name
+
+	\colorbox{black}{{\HUGE\textcolor{white}{\textbf{\MakeUppercase{Beaver}}}}} % Last name
+	\vspace{6pt}
+
+	{\huge Senior Data Scientist} % Career or current job title
+\end{minipage}
+\begin{minipage}[t]{0.275\textwidth} % 27.5% of the page width for the first row of icons
+	\vspace{-\baselineskip} % Required for vertically aligning minipages
+
+	% The first parameter is the FontAwesome icon name, the second is the box size and the third is the text
+	% Other icons can be found by referring to fontawesome.pdf (supplied with the template) and using the word after \fa in the command for the icon you want
+	\icon{MapMarker}{12}{\href{https://maps.app.goo.gl/8yQQxm6hZm7J3Tzy5}{192 Victoria Avenue,\\Derby}}\\
+	\icon{Phone}{12}{+44 (0)7814 056 319}\\
+	\icon{At}{12}{\href{mailto:joseph.beaver@gmail.com}{joseph.beaver@gmail.com}}\\
+\end{minipage}
+\begin{minipage}[t]{0.275\textwidth} % 27.5% of the page width for the second row of icons
+	\vspace{-\baselineskip} % Required for vertically aligning minipages
+
+	% The first parameter is the FontAwesome icon name, the second is the box size and the third is the text
+	% Other icons can be found by referring to fontawesome.pdf (supplied with the template) and using the word after \fa in the command for the icon you want
+	\icon{Github}{12}{\href{https://github.com/gebimble}{github.com/gebimble}}\\
+	\icon{Instagram}{12}{\href{https://www.instragram.com/josephebeaver}{@josephebeaver}}\\
+	\icon{Shield}{12}{Security Check Cleared}\\
+\end{minipage}
+
+\vspace{0.5cm}
+
+%----------------------------------------------------------------------------------------
+%	INTRODUCTION, SKILLS AND TECHNOLOGIES
+%----------------------------------------------------------------------------------------
+
+\cvsect{Who Am I?}
+
+\begin{minipage}[t]{0.4\textwidth} % 40% of the page width for the introduction text
+	\vspace{-\baselineskip} % Required for vertically aligning minipages
+
+	Highly skilled and versatile engineer with over a decade of experience in
+	leading technical projects, infrastructure design, and predictive analytics.
+	Proven track record in automating processes, enhancing system reliability, and
+	improving team performance. Seeking to leverage extensive technical expertise
+	and leadership skills in a Senior Site Reliability Engineer role to optimize
+	and ensure the reliability of complex systems.\\
+\end{minipage}
+\hfill % Whitespace between
+\begin{minipage}[t]{0.5\textwidth} % 50% of the page for the skills bar chart
+	\vspace{-\baselineskip} % Required for vertically aligning minipages
+	\begin{barchart}{5.5}
+		\baritem{C++}{30}
+		\baritem{Python}{100}
+		\baritem{DevOps}{70}
+		\baritem{Rust}{40}
+		\baritem{Git}{50}
+		\baritem{Fortran}{20}
+	\end{barchart}
+\end{minipage}
+\begin{center}
+	\bubbles{4/vscode, 5/vim, 3/Office, 5/terminal, 4/ubuntu}
+\end{center}
+
+
+\cvsect{skills}
+
+\begin{entrylist}
+	\entry{ }{Programming \& Scripting}{}
+	{
+		Python (scientific stack, standard library, machine-learning, fastapi,
+		strawberry, sqlalchemy), Bash, SQL, Rust, C++, MatLab, Cmake
+	}
+
+	\entry{ }{Infrastructure \& Automation}{}
+	{
+		Docker, git hooks, CI/CD, Anaconda.
+	}
+
+	\entry{ }{Data Management \& Visualization}{}
+	{
+		Data cleaning, visualisation, domain-driven modeling, automated data
+		ingestion, time series data cleaning algorithms, Grafana, database
+		management, plotly, dash, vtk, holoviz, matplotlib.
+	}
+
+	\entry{ }{Testing \& Quality Assurance}{}
+	{
+		GoogleTest, pytest, verification \& validation, refactoring, code
+		review, Tidelift.
+	}
+
+	\entry{ }{Project Management \& Collaboration}{}
+	{
+		Project planning, Agile, Scrum, sprint planning/review/retrospective,
+		stakeholder engagement, coaching, training, influence, interview panel
+		experience.
+	}
+
+	\entry{ }{Documentation}{}
+	{
+		In-code documentation, user documentation suites, doctest.
+	}
+
+	\entry{ }{Devlopment Tools}{}
+	{
+		Azure DevOps, VSCode, LSP, vim, terminal, Windows Subsystem for Linux,
+		Ubuntu.
+	}
+
+\end{entrylist}
+
+\cvsect{Experience}
+
+\begin{entrylist}
+	\entry
+	{07/2022--}
+	{Senior Data Scientist/Product Owner/Technical Lead}
+	{Rolls-Royce plc.}
+	{
+		\textbf{Responsibilities}\\
+		Led the development and maintenance of automated data ingestion services and
+		analytics pipelines.\\
+		Up-skill team members in quality assurance, technical skills,
+		tech stack, ways of working, developer mentality, planning,
+		design, refactoring, and testing.\\
+		Company-wide influence on artefact configuration, ways of working,
+		developer skills for automation, use of AI/ML.\\
+		Product Owner for a team of 8.\\
+		Team worked on 5 products simultaneously, 3 of which were of critical significance,
+		and handled emergent digital issues across the entire business.\\
+		Creation of standardised timeseries cleaning algorithms.\\
+
+		\textbf{Achievements}\\
+		Creation of new APIs (c.f. previous SDK) and automated data ingestion
+		framework.\\
+		70\% reduction of codebases with no loss of functionality and increased test
+		coverage and quality.\\
+		Decrease team cycle time.\\
+		More inclusive, collaboration, and upstanding team culture.\\
+		Improved Bronze/Silver/Gold database format.
+	}
+
+	\entry
+	{11/2019--07/2022}
+	{Methods Development Engineer}
+	{Rolls-Royce plc.}
+	{
+		\textbf{Responsibilities}\\
+		Spearheaded Agile practices, leading to significant project efficiency gains.\\
+		Collaborated on predictive analytics and optimization algorithms for system reliability.\\
+		Collaboration with 3rd parties to develop archival data storage format.\\
+		Subcontractor management.\\
+
+		\textbf{Achievements}\\
+		Completed test-project 30\% ahead of schedule and 20\% under budget by
+		implementing Agile practices.\\
+		Enhanced reactor core component placement optimization algorithms, improving
+		overall system performance.\\
+	}
+
+	\entry
+	{01/2012--11/2019}
+	{Core Physics Design Engineer}
+	{Rolls-Royce plc.}
+	{
+		\textbf{Responsibilities}\\
+		Developed and maintained automated experimental physics analysis suite.\\
+		Physical modelling and simulation of contemporary and historic naval reactor
+		cores. Automated Verification and Validation process.\\
+		Led initiatives to automate and optimize core component placement and system
+		performance.\\
+		Conducted extensive training on system automation and reliability best
+		practices.\\
+		Physics Test Assistant Supervisor; naval liaison, dockyard experiment
+		management, test equipment management, site security liaison.\\
+		Company-wide training course development and delivery.\\
+		External industrial lecturer to Universities of Cambridge, Oxford,
+		Birmingham, Nottingham, York, and Imperial College London.\\
+
+		\textbf{Achievements}\\
+		Created archival experimental data storage format and database, improving
+		data management efficiency.\\
+		Core models created remain the gold standard and most completely researched
+		models created to date.\\
+		Created full automated Verification \& Validation suite.
+	}
+\end{entrylist}
+
+\cvsect{Education}
+
+\begin{entrylist}
+	\entry
+	{2011--2012}
+	{Masters of Science - Physics \& Technology of Nuclear Reactors}
+	{Univeristy of Birmingham}
+	{
+		*Merit*. Industrial placement in Rolls-Royce Core Design and Manufcter - Reactor
+		and Operational Physics team. Advanced Concepts work validating MONK criticality
+		benchmarks for thorium-based critical systems.
+	}
+	\entry
+	{2006--2010}
+	{Masters of Science - Physics with Philsophy}
+	{Univeristy of York}
+	{
+		*2.1*. Final project: \textit{Quantum Mirrors for Cold Atoms and
+			Bose-Einstein Condensates}; computational modelling of slow atoms
+		Bose-Einstein condensates incident on a variety of potential surfaces in
+		`Fortran`.
+	}
+\end{entrylist}
+
+\begin{minipage}[t]{0.3\textwidth}
+	\vspace{-\baselineskip} % Required for vertically aligning minipages
+
+	\cvsect{Certifications}
+	\raggedright
+
+	\textbf{Tester}\\ISTQB Certified Tester Foundation Level\\
+	\textbf{Scrum Master}\\TCC/ScrumAlliance Certified Scrum Master\\
+	\textbf{Scrum Product Owner}\\TCC/ScrumAlliance Certified Scrum Product Onwer\\
+	\textbf{Visualisation}\\Successfully competed Edward Tufte visualisation
+	programme.
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.3\textwidth}
+	\vspace{-\baselineskip} % Required for vertically aligning minipages
+
+	\cvsect{Languages}
+	\raggedright
+
+	\textbf{English} - native\\
+	\textbf{Japanese} - rudimentary
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.3\textwidth}
+	\vspace{-\baselineskip} % Required for vertically aligning minipages
+
+	\cvsect{Hobbies}
+	\raggedright
+
+	Coffee\\
+	Bouldering\\
+	Lead climbing\\
+	Cycling\\
+	Video games\\
+	Mechanical keyboards\\
+	Bass guitar
+\end{minipage}
+\end{document}
